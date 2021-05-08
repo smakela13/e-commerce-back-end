@@ -16,7 +16,7 @@ router.get('/', (req, res) => {
         model: Tag,
         attributes: ['id', 'tag_name']
     }]
-}).then(productData => res.json(productData))
+  }).then(productData => res.json(productData))
     .catch((err) => {
     console.log(err);
     res.status(500).json(err);
@@ -36,7 +36,7 @@ router.get('/:id', (req, res) => {
         model: Tag,
         attributes: ['id', 'tag_name']
     }]
-}).then(productData => res.json(productData))
+  }).then(productData => res.json(productData))
     .catch((err) => {
     console.log(err);
     res.status(500).json(err);
@@ -103,7 +103,6 @@ router.put('/:id', (req, res) => {
       const productTagsToRemove = productTags
         .filter(({ tag_id }) => !req.body.tagIds.includes(tag_id))
         .map(({ id }) => id);
-
       // run both actions
       return Promise.all([
         ProductTag.destroy({ where: { id: productTagsToRemove } }),
@@ -128,7 +127,7 @@ router.delete('/:id', (req, res) => {
         res.status(404).json({ message: 'No entry found' });
         return;
       }
-      res.json(productData)
+      res.status(200).json(productData)
     }).catch((err) => {
       console.log(err);
       res.status(500).json(err);
