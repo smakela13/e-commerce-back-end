@@ -36,10 +36,6 @@ Once those steps are done, you can view the application in Insomnia or your brow
 
 ## Usage
 
-Navigate to [part one of the video](https://youtu.be/-rA9ZzXnZlA) to view a walkthrough on how the application works.
-
-Continue to [video two](https://youtu.be/br0TkcyK5vE) for the rest of the walkthrough.
-
 * Get current categories, including a category by ID.
 * Create a category, then update and delete it.
 * Get all current products, then a single product.
