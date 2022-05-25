@@ -47,11 +47,11 @@ Continue to [video two](https://youtu.be/br0TkcyK5vE) for the rest of the walkth
 * Get all current tags, then a single tag.
 * Create a tag, then update and delete it.
 
-![Sarah Makela's E-Commerce Back End](./assets/put-product-screenshot.png)
+![Soma Makela's E-Commerce Back End](./assets/put-product-screenshot.png)
 
 ## Credits
 
-Created by [Sarah Makela](https://github.com/smakela13).
+Created by [Soma Makela](https://github.com/smakela13).
 
 ## License
 
